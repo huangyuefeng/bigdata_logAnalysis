@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# Update by huangyuefeng On 2018/07/12
 
 from faker import Factory
 import random,sys,time,uuid
 
-USER_FILE="/home/bigdata/datasource/user.list"
-BRAND_FILE="/home/bigdata/datasource/brand.list"
-RECORD_FILE="/home/bigdata/datasource/record.list"
+USER_FILE="/home/zkpk/datasource/user.list"
+BRAND_FILE="/home/zkpk/datasource/brand.list"
+RECORD_FILE="/home/zkpk/datasource/record.list"
 
 WEBSITE_LIST=("TAOBAO","TIANMAO","JUHUASUAN","TIANMAOCHAOSHI")
 EXPRESS_LIST=("SHENTONG","SHUNFENG","EMS","YUANTONG","YUNDA","ZHONGTONG")
