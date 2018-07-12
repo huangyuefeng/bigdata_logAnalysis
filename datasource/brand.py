@@ -3,7 +3,7 @@
 # Update by huangyuefeng On 2018/07/12
 import random,sys
 
-BRAND_FILE="/home/zkpk/datasource/brand.list"
+BRAND_FILE="/home/zkpk/DEV_DIR/bigdata_logAnalysis/datasource/brand.list"
 BRAND={"computer":("APPLE","HP","ACER","LENOVO","DELL","SONY","ASUS"),"telephone":("IPHONE","SAMSUNG","HTC","MOTOROLA","HUAWEI","OPPO","VIVO","XIAOMI","MEIZU"),"television":("HISENSE","SAMSUNG","SKYWORTH","SHARP","HAIER","PHILIPS","TCL"),"sports":("NIKE","ADIDAS","LINING","PUMA","ANTA","MIZUNO","KAPPA","NB","PEAK","361"),"food":("MENGNIU","YILI","GUANGMING","SANYUAN","WULIANGYE","MOUTAI","HONGXING","NIULANSHAN","LANGJIU"),"clothes":("ZARA","HLA","UNIQLO","PEACEBIRD","GXG","SELECTED","SEMIR","SEPTWOLVES","CAMEL"),"cosmetic":("LOREAL","NIVEA","KANS","DHC","CLINIQUE","INNISFREE","MEIFUBAO","OLAY","LANCOME")}
 
 def get_one_brand(category_list,id):
