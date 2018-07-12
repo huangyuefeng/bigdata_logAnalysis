@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+# update by huangyuefeng on 18-01-01
 import random,sys
 
 BRAND_FILE="/home/zkpk/datasource/brand.list"
